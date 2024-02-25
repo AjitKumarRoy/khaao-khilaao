@@ -22,3 +22,14 @@
 .navbar-brand {
 	font-family: 'Samarkan', sans-serif; /* Use 'samhari' font family */
 }
+
+.wooden-light {
+    background: linear-gradient(45deg, #E4572E, #29335C, #d6630a, #A8C686, #669BBC); /* Adjust the colors as needed */
+}
+
+
+.btn {
+    background: linear-gradient(45deg, #a94438, #561C24, #ED7D31);
+}
+
+
