@@ -1,0 +1,24 @@
+
+
+@font-face {
+    font-family: 'Samarkan';
+    src: url('fonts/SAMARN__.TTF') format('truetype'); 
+    src: url('fonts/SAMARO__.TTF') format('truetype'); 
+    /* Add other font formats if available */
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+.triangle-right {
+	width: 0;
+	height: 0;
+    top:1/2;
+	border-top: 25px solid transparent;
+	border-left: 50px solid #323ea0;
+	border-bottom: 25px solid transparent;
+}
+
+.navbar-brand {
+	font-family: 'Samarkan', sans-serif; /* Use 'samhari' font family */
+}
