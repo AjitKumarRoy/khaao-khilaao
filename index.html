@@ -34,6 +34,37 @@
         .text-yellow {
             color: yellow;
         }
+
+
+        /* Style for normal links */
+        .ajit {
+            color: #007bff;
+            /* Default link color */
+            text-decoration: none;
+            /* Remove underline */
+            transition: color 0.3s;
+            /* Smooth color transition */
+        }
+
+        /* Style for visited links */
+        .ajit:visited {
+            color: #3fc3be87;
+            /* Adjust color for visited links */
+        }
+
+        /* Style for hovered links */
+        .ajit:hover {
+            color: #0056b3;
+            /* Adjust color on hover */
+            text-decoration: underline;
+            /* Add underline on hover */
+        }
+
+        /* Style for active links (while being clicked) */
+        .ajit:active {
+            color: #003c6e;
+            /* Adjust color while being clicked */
+        }
     </style>
 
 
@@ -453,13 +484,15 @@
     <footer class="text-gray-600 body-font bg-gray-900">
         <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
             <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
-                <img src="img/logo.jpg" width="150px" height="auto" >
-                
+                <img src="img/logo.jpg" width="150px" height="auto">
+
             </a>
             <p class="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">©
                 2024 <span class="navbar-brand ">Khaaiye Khilaaiye</span></p>
             <p class="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">
-                <span>Designed & Developed by Ajit Kumar Roy</span></p>
+                <span>Designed & Developed by <a href="https://www.linkedin.com/in/ajitroyofficial/"
+                        target="_blank" class="ajit">Ajit Kumar Roy</a></span>
+            </p>
             <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
 
                 <a class="ml-3 text-gray-500" href="#">
