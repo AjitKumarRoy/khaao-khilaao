@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="img/w3.css">
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css" rel="stylesheet" />
     <title>Khaao Khilaao</title>
@@ -15,6 +16,23 @@
         html {
             scroll-behavior: smooth;
         }
+
+        @media (min-width: 601px) {
+
+            .w3-col.m4,
+            .w3-third {
+                width: 49.33333%;
+            }
+        }
+
+        .menu-size {
+            font-size: 40px !important;
+            font-weight: bold !important;
+        }
+
+        .text-yellow {
+            color: yellow;
+        }
     </style>
 
 
@@ -22,7 +40,8 @@
         <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
             <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse">
                 <span
-                    class="self-center text-2xl font-bold whitespace-nowrap text-blue-700 dark:text-white navbar-brand"><img src="img/logo.jpg" alt=".." width="150px" height="auto"></span>
+                    class="self-center text-2xl font-bold whitespace-nowrap text-blue-700 dark:text-white navbar-brand"><img
+                        src="img/logo.jpg" alt=".." width="150px" height="auto"></span>
             </a>
             <button data-collapse-toggle="navbar-default" type="button"
                 class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
@@ -69,18 +88,26 @@
     <section id="hero" class="wooden-light text-white">
         <div class="mx-auto max-w-screen-xl px-4 py-32 lg:flex lg:h-screen lg:items-center">
             <div class="mx-auto max-w-4xl text-center">
-                <h1
-                    class="bg-gradient-to-r from-yellow-500 via-blue-300 to-white-700 bg-clip-text text-5xl font-extrabold text-transparent tracking-wide " style="color: white;">
+                <h1 class="bg-gradient-to-r from-yellow-500 via-blue-300 to-white-700 bg-clip-text text-5xl font-extrabold text-transparent tracking-wide "
+                    style="color: white;">
                     <span class="sm:block navbar-brand text-5xl " style="font-size: 6rem;">Khaaiye Khilaaiye</span> <br>
                     <span class="sm:block text-2xl">This Ecstacy</span>
                     <span class="sm:block text-2xl"> 2nd & 3rd March </span>
                 </h1>
 
-                <p class="mx-auto mt-4 max-w-xl sm:text-xl/relaxed text-gray-400">
-                    Don't Miss the Fun!  The Perfect Fest Fuel: Litti Chokha & Roasted Corn<br>
-                    Fuel Your Fest Fun!  Grab Your Litti Chokha & Roasted Corn Adventure Now!<br>
+                <p class="mx-auto mt-4 max-w-xl sm:text-xl/relaxed text-yellow">
+                    Don't Miss the Fun! The Perfect Fest Fuel: Litti Chokha & Roasted Corn<br>
+                    Fuel Your Fest Fun! Grab Your Litti Chokha & Roasted Corn Adventure Now!<br>
                     Don't just stand there, grab a share! Litti Chokha & corn, beyond compare!
                 </p>
+
+
+                <div class="mt-8 flex flex-wrap justify-center gap-4">
+                    <a class="block w-full rounded border border-blue-600 bg-blue-600 px-12 py-3 text-sm font-medium text-white hover:bg-transparent hover:text-white focus:outline-none focus:ring active:text-opacity-75 sm:w-auto"
+                        href="#">
+                        PreOrder!
+                    </a>
+                </div>
 
                 <div class="mt-8 flex flex-wrap justify-center gap-4">
                     <a class="block w-full rounded border border-blue-600 bg-blue-600 px-12 py-3 text-sm font-medium text-white hover:bg-transparent hover:text-white focus:outline-none focus:ring active:text-opacity-75 sm:w-auto"
@@ -88,6 +115,7 @@
                         Send Your Feedback!
                     </a>
                 </div>
+
             </div>
         </div>
     </section>
@@ -110,17 +138,38 @@
                         </h2>
 
                         <p>
-                            Khaaye Khilaayai  is the name of the stall tag line is yaaden banao (make memories). Nothing defines the nostalgia of enjoying a perfectly roasted corn made with a dash of salt ,spice and lime on a fest evening.
-                            It is one of those wonderful food memories that revive the happiness of good old times.
-                            Well ,now what you are waiting for come at KHAO KHILAO and have freshly roasted corns to perfection!
-                            
-                            Corn is a great food choice in winter as it is a nutritional powerhouse ,boasting a rich supply of vitamins,minerals, and fiber.
-                            
-                            It is also a good source of B-vitamins, such as thiamine and niacin 
-                            essential minarals like phosphours and magnesium ,crucial for bone health and overall . make attrative and hook  script to grave attitation for reels. Litti Chokha of Bihar was originated centuries ago as a staple food in the court of Magadha
-                            Originating from the state of Bihar, litti chokha is a meal that is popular in different parts of India including Jharkhand and Uttar Pradesh
-                            Litti Chokha is believed to have originated in the Magadha region, which includes present-day Bihar and parts of Jharkhand in India. Its roots can be traced back to the ancient times of the Magadha kingdom, which existed from the 6th century BCE to the 5th century CE. However, the precise origin story of Litti Chokha may not have been explicitly documented and might have evolved over time through cultural influences and culinary practices.
+                            KHAAIYE KHILAAIYE is the name of the stall tag line is <strong><i>yaaden banao (make
+                                    memories)</i></strong>.
+                        </p>
 
+                        <p>
+                            Nothing
+                            defines the nostalgia of enjoying a perfectly <strong>Roasted Corn</strong> made with a dash
+                            of salt ,spice
+                            and lime on a fest evening.
+                            It is one of those wonderful food memories that revive the happiness of good old times.
+                            Well ,now what you are waiting for come at KHAAIYE KHILAAIYE and have freshly roasted corns
+                            to
+                            perfection!
+
+                            Corn is a great food choice in winter as it is a nutritional powerhouse ,boasting a rich
+                            supply of vitamins,minerals, and fiber.
+
+                            It is also a good source of B-vitamins, such as thiamine and niacin
+                            essential minarals like phosphours and magnesium crucial for bone health and overall.
+                        </p>
+
+                        <p>
+                            <strong>Litti Chokha</strong> of Bihar was
+                            originated centuries ago as a staple food in the court of Magadha
+                            Originating from the state of Bihar, litti chokha is a meal that is popular in different
+                            parts of India including Jharkhand and Uttar Pradesh
+                            Litti Chokha is believed to have originated in the Magadha region, which includes
+                            present-day Bihar and parts of Jharkhand in India. Its roots can be traced back to the
+                            ancient times of the Magadha kingdom, which existed from the 6th century BCE to the 5th
+                            century CE. However, the precise origin story of Litti Chokha may not have been explicitly
+                            documented and might have evolved over time through cultural influences and culinary
+                            practices.
                         </p>
                     </div>
                 </main>
@@ -128,78 +177,11 @@
         </div>
         <div class="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
             <img class="h-full w-full object-cover object-top sm:h-full md:h-full lg:w-full lg:h-full"
-                src="img/litti-chokha-1.jpg" alt="">
+                src="img/litti-chokha-99.jpg" alt="">
         </div>
     </div>
 
-    <div id="menu" class="flex items-center justify-center bg-gray-900 py-20">
-        <button
-            class="flex items-baseline rounded bg-blue-700 px-8 py-6 text-xl font-bold text-white mb-12 relative z-10">
-            <span>Our Menu</span>
-        </button>
-    </div>
-    <main class="min-h-screen flex items-center justify-center bg-gray-900 pb-44">
-        <div class="flex flex-wrap gap-20 justify-center">
-            <div
-                class="relative h-96 w-80 transform rounded-2xl  rotate-2 bg-gray-100 p-6 transition duration-300 hover:rotate-0">
 
-                <div class=" absolute inset-4 flex justify-end">
-                    <div class="h-4 w-4 rounded-full bg-gray-900"></div>
-                </div>
-                <footer class="mb-10 flex justify-center">
-                    <button
-                        class="flex items-baseline rounded-full bg-blue-700 px-4 py-1.5 text-xl font-bold text-white">
-                        <span>Menu 1: </span>
-                    </button>
-                </footer>
-                <p>
-                    <li class="text-sm font-medium text-gray-800">Sustainable Manufacturing</li>
-                    <li class="text-sm font-medium text-gray-800">Additive manufacturing</li>
-                    <li class="text-sm font-medium text-gray-800">CNC, computer-integrated manufacturing</li>
-                    <li class="text-sm font-medium text-gray-800">Cyber-physical systems in manufacturing</li>
-                    <li class="text-sm font-medium text-gray-800">Micro/Nano processing</li>
-                    <li class="text-sm font-medium text-gray-800">AI & ML in manufacturing</li>
-                    <li class="text-sm font-medium text-gray-800">Surface development, coating technology</li>
-                    <li class="text-sm font-medium text-gray-800">Allied topics on smart manufacturing </li>
-                </p>
-            </div>
-            <div
-                class="relative h-96 w-80 transform rounded-2xl  rotate-2 bg-gray-100 p-6 transition duration-300 hover:rotate-0">
-
-                <div class=" absolute inset-4 flex justify-end">
-                    <div class="h-4 w-4 rounded-full bg-gray-900"></div>
-                </div>
-                <footer class="mb-10 flex justify-center">
-                    <button
-                        class="flex items-baseline rounded-full bg-blue-700 px-4 py-1.5 text-xl font-bold text-white">
-                        <span>Menu 2: </span>
-                    </button>
-                </footer>
-                <p>
-                    <li class="text-sm font-medium text-gray-800">ML in machining optimization</li>
-                    <li class="text-sm font-medium text-gray-800"> Topics to include but not limited to</li>
-                    <li class="text-sm font-medium text-gray-800"> Artificial Intelligence</li>
-                    <li class="text-sm font-medium text-gray-800"> Autonomous vehicles</li>
-                    <li class="text-sm font-medium text-gray-800"> Deep learning</li>
-                    <li class="text-sm font-medium text-gray-800"> Evolutionary Computing</li>
-                    <li class="text-sm font-medium text-gray-800"> Fuzzy Logic and Systems</li>
-                    <li class="text-sm font-medium text-gray-800"> Hybrid Intelligent Systems</li>
-                    <li class="text-sm font-medium text-gray-800"> Machine learning</li>
-                    <li class="text-sm font-medium text-gray-800"> Neural Networks</li>
-                    <li class="text-sm font-medium text-gray-800"> Smart energy system</li>
-                </p>
-            </div>
-
-        </div>
-    </main>
-
-
-    <div class="flex items-center justify-center mt-20 relative">
-        <button
-            class="flex items-baseline rounded bg-blue-700 px-8 py-6 text-xl font-bold text-white mb-12 relative z-10">
-            <span>Gallery</span>
-        </button>
-    </div>
     <div class="mx-auto max-w-4xl">
 
         <div id="default-carousel" class="relative" data-carousel="static">
@@ -210,37 +192,145 @@
                     <span
                         class="absolute top-1/2 left-1/2 text-2xl font-semibold text-white -translate-x-1/2 -translate-y-1/2 sm:text-3xl dark:text-gray-800">First
                         Slide</span>
-                    <img src="img/litti-chokha-1.jpg"
+                    <img src="img/meme1.jpeg"
                         class="block absolute top-1/2 left-1/2 w-full -translate-x-1/2 -translate-y-1/2" alt="...">
                 </div>
 
                 <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                    <img src="img/Litti-Chokha-163342107716x9.jpg"
+                    <img src="img/meme2.jpeg"
+                        class="block absolute top-1/2 left-1/2 w-full -translate-x-1/2 -translate-y-1/2" alt="...">
+                </div>
+
+
+            </div>
+
+            <div class="flex absolute bottom-5 left-1/2 z-30 space-x-3 -translate-x-1/2">
+                <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 1"
+                    data-carousel-slide-to="0"></button>
+                <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 2"
+                    data-carousel-slide-to="1"></button>
+                <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 3"
+                    data-carousel-slide-to="2"></button>
+            </div>
+
+            <button type="button"
+                class="flex absolute top-0 left-0 z-30 justify-center items-center px-4 h-full cursor-pointer group focus:outline-none"
+                data-carousel-prev>
+                <span
+                    class="inline-flex justify-center items-center w-8 h-8 rounded-full sm:w-10 sm:h-10 bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+                    <svg class="w-5 h-5 text-white sm:w-6 sm:h-6 dark:text-gray-800" fill="none" stroke="currentColor"
+                        viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7">
+                        </path>
+                    </svg>
+                    <span class="hidden">Previous</span>
+                </span>
+            </button>
+            <button type="button"
+                class="flex absolute top-0 right-0 z-30 justify-center items-center px-4 h-full cursor-pointer group focus:outline-none"
+                data-carousel-next>
+                <span
+                    class="inline-flex justify-center items-center w-8 h-8 rounded-full sm:w-10 sm:h-10 bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+                    <svg class="w-5 h-5 text-white sm:w-6 sm:h-6 dark:text-gray-800" fill="none" stroke="currentColor"
+                        viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                    </svg>
+                    <span class="hidden">Next</span>
+                </span>
+            </button>
+        </div>
+
+    </div>
+
+
+
+    <div class="w3-content" style="max-width:2000px;margin-top:46px;">
+        <div class="w3-teal" id="menu">
+            <div class="w3-container w3-content w3-padding-64" style="max-width:800px">
+                <h2 class="w3-wide w3-center w3-xlarge w3-bold w3-text-black menu-size">Our Menu</h2>
+                <p class="w3-opacity w3-center"><i>Make memories!</i></p><br>
+
+
+
+                <div class="w3-row-padding w3-padding-32" style="margin:0 -16px">
+                    <div class="w3-third w3-margin-bottom">
+                        <img src="img/litti-chokha-99.jpg" alt="Litti Chokha" style="width:100%"
+                            class="w3-hover-opacity">
+                        <div class="w3-container w3-white">
+                            <p><b>Litti Chokha</b></p>
+                            <p>Authentic Litti Chokha.</p>
+                            <button class="w3-button w3-black w3-margin-bottom"
+                                onclick="document.getElementById('ticketModal').style.display='block'">Buy Now</button>
+                        </div>
+                    </div>
+                    <div class="w3-third w3-margin-bottom">
+                        <img src="img/org-makai-6.jpg" alt="Paris" style="width:100%" class="w3-hover-opacity">
+                        <div class="w3-container w3-white">
+                            <p><b>Roasted Corn</b></p>
+                            <p>Delicious Roasted Corn</p>
+                            <button class="w3-button w3-black w3-margin-bottom"
+                                onclick="document.getElementById('ticketModal').style.display='block'">Buy
+                                Now</button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+
+
+
+    <div class="mx-auto max-w-4xl">
+        <div class="flex items-center justify-center mt-20 relative">
+            <button
+                class="flex items-baseline rounded bg-blue-700 px-8 py-6 text-xl font-bold text-white mb-12 relative z-10">
+                <span>Delicious & Nutritious</span>
+            </button>
+        </div>
+
+        <div id="default-carousel" class="relative" data-carousel="static">
+
+            <div class="overflow-hidden relative rounded-lg" style="height: 520px;">
+
+                <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                    <span
+                        class="absolute top-1/2 left-1/2 text-2xl font-semibold text-white -translate-x-1/2 -translate-y-1/2 sm:text-3xl dark:text-gray-800">First
+                        Slide</span>
+                    <img src="img/litti1.jpeg"
                         class="block absolute top-1/2 left-1/2 w-full -translate-x-1/2 -translate-y-1/2" alt="...">
                 </div>
 
                 <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                    <img src="img/Litti.gif"
+                    <img src="img/org-makai-1.jpg"
+                        class="block absolute top-1/2 left-1/2 w-full -translate-x-1/2 -translate-y-1/2" alt="...">
+                </div>
+
+                <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                    <img src="img/litti2.jpeg"
                         class="block absolute top-1/2 left-1/2 w-full -translate-x-1/2 -translate-y-1/2" alt="...">
                 </div>
                 <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                    <img src="img/litti-chokha-1.jpg"
+                    <img src="img/org-makai-2.jpg"
                         class="block absolute top-1/2 left-1/2 w-full -translate-x-1/2 -translate-y-1/2" alt="...">
                 </div>
                 <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                    <img src="img/Litti-Chokha-163342107716x9.jpg"
+                    <img src="img/litti3.jpeg"
                         class="block absolute top-1/2 left-1/2 w-full -translate-x-1/2 -translate-y-1/2" alt="...">
                 </div>
                 <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                    <img src="img/Litti-Chokha-163342107716x9.jpg"
+                    <img src="img/org-makai-3.jpg"
                         class="block absolute top-1/2 left-1/2 w-full -translate-x-1/2 -translate-y-1/2" alt="...">
                 </div>
                 <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                    <img src="img/Litti.gif"
+                    <img src="img/litt4.jpeg"
                         class="block absolute top-1/2 left-1/2 w-full -translate-x-1/2 -translate-y-1/2" alt="...">
                 </div>
                 <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                    <img src="img/Litti-Chokha-163342107716x9.jpg"
+                    <img src="img/org-makai-4.jpg"
                         class="block absolute top-1/2 left-1/2 w-full -translate-x-1/2 -translate-y-1/2" alt="...">
                 </div>
             </div>
@@ -297,58 +387,29 @@
             <div class="flex flex-wrap gap-20 justify-center">
                 <div
                     class="relative h-96 w-80 transform rounded-2xl  rotate-2 bg-gray-100 p-6 transition duration-300 hover:rotate-0">
-    
+
                     <div class=" absolute inset-4 flex justify-end">
                         <div class="h-4 w-4 rounded-full bg-gray-900"></div>
                     </div>
                     <footer class="mb-10 flex justify-center">
                         <button
                             class="flex items-baseline rounded-full bg-blue-700 px-4 py-1.5 text-xl font-bold text-white">
-                            <span>Menu 1: </span>
+                            <span>Open Hours: </span>
                         </button>
                     </footer>
                     <p>
-                        <li class="text-sm font-medium text-gray-800">Sustainable Manufacturing</li>
-                        <li class="text-sm font-medium text-gray-800">Additive manufacturing</li>
-                        <li class="text-sm font-medium text-gray-800">CNC, computer-integrated manufacturing</li>
-                        <li class="text-sm font-medium text-gray-800">Cyber-physical systems in manufacturing</li>
-                        <li class="text-sm font-medium text-gray-800">Micro/Nano processing</li>
-                        <li class="text-sm font-medium text-gray-800">AI & ML in manufacturing</li>
-                        <li class="text-sm font-medium text-gray-800">Surface development, coating technology</li>
-                        <li class="text-sm font-medium text-gray-800">Allied topics on smart manufacturing </li>
+                        <li class="text-sm  w3-xlarge w3-bold w3-text-black">Evening</li>
                     </p>
-                </div>
-                <div
-                    class="relative h-96 w-80 transform rounded-2xl  rotate-2 bg-gray-100 p-6 transition duration-300 hover:rotate-0">
-    
-                    <div class=" absolute inset-4 flex justify-end">
-                        <div class="h-4 w-4 rounded-full bg-gray-900"></div>
-                    </div>
-                    <footer class="mb-10 flex justify-center">
-                        <button
-                            class="flex items-baseline rounded-full bg-blue-700 px-4 py-1.5 text-xl font-bold text-white">
-                            <span>Menu 2: </span>
-                        </button>
-                    </footer>
+                    <br>
                     <p>
-                        <li class="text-sm font-medium text-gray-800">ML in machining optimization</li>
-                        <li class="text-sm font-medium text-gray-800"> Topics to include but not limited to</li>
-                        <li class="text-sm font-medium text-gray-800"> Artificial Intelligence</li>
-                        <li class="text-sm font-medium text-gray-800"> Autonomous vehicles</li>
-                        <li class="text-sm font-medium text-gray-800"> Deep learning</li>
-                        <li class="text-sm font-medium text-gray-800"> Evolutionary Computing</li>
-                        <li class="text-sm font-medium text-gray-800"> Fuzzy Logic and Systems</li>
-                        <li class="text-sm font-medium text-gray-800"> Hybrid Intelligent Systems</li>
-                        <li class="text-sm font-medium text-gray-800"> Machine learning</li>
-                        <li class="text-sm font-medium text-gray-800"> Neural Networks</li>
-                        <li class="text-sm font-medium text-gray-800"> Smart energy system</li>
+                        <li class="text-sm  w3-xlarge w3-bold w3-text-black">4:10pm - till midnight</li>
                     </p>
                 </div>
-    
+
             </div>
         </main>
-    
-        
+
+
 
     </div>
 
@@ -391,12 +452,15 @@
     <footer class="text-gray-600 body-font bg-gray-900">
         <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
             <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
-                <img src="#" class="h-10">
-                <span class="ml-3 text-xl text-gray-100 navbar-brand">Khaao Khilaao</span>
+                <img src="img/logo.jpg" width="150px" height="auto" >
+                
             </a>
             <p class="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">©
-                2024 <span class="navbar-brand ">Khaao Khilaao</span></p>
+                2024 <span class="navbar-brand ">Khaaiye Khilaaiye</span></p>
+            <p class="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">
+                <span>Designed & Developed by Ajit Kumar Roy</span></p>
             <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
+
                 <a class="ml-3 text-gray-500" href="#">
                     <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                         class="w-5 h-5" viewBox="0 0 24 24">
