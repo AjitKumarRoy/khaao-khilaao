@@ -35,3 +35,28 @@ window.onscroll = function () { scrollFunction() };
             document.body.scrollTop = 0; // For Safari
             document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
         });
+
+
+
+
+        // Function to get views count from local storage or initialize if not present
+function getViewsCount() {
+    let views = localStorage.getItem('viewsCount');
+    if (!views) {
+        localStorage.setItem('viewsCount', '0');
+        return 0;
+    }
+    return parseInt(views);
+}
+
+// Function to update and display views count
+function updateViewsCount() {
+    let count = getViewsCount() + 1;
+    localStorage.setItem('viewsCount', count.toString());
+    document.getElementById('viewsCount').innerText = `Total views: ${count}`;
+}
+
+// Update views count when the page loads
+window.onload = function() {
+    updateViewsCount();
+}
